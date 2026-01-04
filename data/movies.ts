@@ -54,5 +54,5 @@ export const movies: Movie[] = [
     { id: 35, title: "Varisu", year: 2023, director: "Vamshi Paidipally", category: "Peak & Legacy", verdict: "Blockbuster" },
     { id: 36, title: "Leo", year: 2023, director: "Lokesh Kanagaraj", category: "Peak & Legacy", verdict: "All Time Blockbuster" },
     { id: 37, title: "The Greatest of All Time", year: 2024, director: "Venkat Prabhu", category: "Peak & Legacy", verdict: "Mega Blockbuster" },
-    { id: 38, title: "Thalapathy 69", year: 2025, director: "H. Vinoth", category: "Peak & Legacy", verdict: "The Final Chapter" },
+    { id: 38, title: "Jananayagan", year: 2026, director: "H. Vinoth", category: "Peak & Legacy", verdict: "The Final Chapter" },
 ];

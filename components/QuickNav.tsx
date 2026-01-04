@@ -4,12 +4,10 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 
 const navItems = [
-    { title: 'FILM JOURNEY', path: '/film-journey', color: 'from-red-900 to-red-600' },
-    { title: 'ICONIC ROLES', path: '/roles', color: 'from-amber-700 to-amber-500' },
-    { title: 'DIALOGUES & SCENES', path: '/dialogues', color: 'from-slate-800 to-slate-600' },
-    { title: 'SONGS & DANCE', path: '/songs', color: 'from-pink-900 to-pink-600' },
-    { title: 'BOX OFFICE', path: '/box-office', color: 'from-emerald-900 to-emerald-600' },
-    { title: 'GALLERY', path: '/gallery', color: 'from-indigo-900 to-indigo-600' },
+    { title: 'FILM JOURNEY', path: '#film-journey', color: 'from-red-900 to-red-600' },
+    { title: 'ICONIC ROLES', path: '#roles', color: 'from-amber-700 to-amber-500' },
+    { title: 'BOX OFFICE', path: '#box-office', color: 'from-emerald-900 to-emerald-600' },
+    { title: 'GALLERY', path: '#gallery', color: 'from-indigo-900 to-indigo-600' },
 ]
 
 export default function QuickNav() {

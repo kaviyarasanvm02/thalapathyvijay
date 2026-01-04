@@ -5,14 +5,12 @@ import { motion, useScroll, useMotionValueEvent } from 'framer-motion'
 import { useState } from 'react'
 
 const navLinks = [
-    { name: 'Journey', href: '/film-journey' },
-    { name: 'Roles', href: '/roles' },
-    { name: 'Dialogues', href: '/dialogues' },
-    { name: 'Songs', href: '/songs' },
-    { name: 'Records', href: '/box-office' },
-    { name: 'Fans', href: '/fans' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'The Final Bow', href: '/final-bow', special: true },
+    { name: 'Journey', href: '#film-journey' },
+    { name: 'Roles', href: '#roles' },
+    { name: 'Records', href: '#box-office' },
+    { name: 'Fans', href: '#fans' },
+    { name: 'Gallery', href: '#gallery' },
+    { name: 'The Final Bow', href: '#final-bow', special: true },
 ]
 
 export default function Navbar() {

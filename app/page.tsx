@@ -3,6 +3,12 @@ import StatsSection from '@/components/StatsSection'
 import JourneyTimeline from '@/components/JourneyTimeline'
 import DefinitionGrid from '@/components/DefinitionGrid'
 import QuickNav from '@/components/QuickNav'
+import FilmJourneySection from '@/components/FilmJourneySection'
+import RolesSection from '@/components/RolesSection'
+import BoxOfficeSection from '@/components/BoxOfficeSection'
+import FansSection from '@/components/FansSection'
+import GallerySection from '@/components/GallerySection'
+import FinalBowSection from '@/components/FinalBowSection'
 
 export default function Home() {
   return (
@@ -14,9 +20,13 @@ export default function Home() {
       <StatsSection />
       <JourneyTimeline />
       <DefinitionGrid />
-      <QuickNav />
 
-
+      <FilmJourneySection />
+      <RolesSection />
+      <BoxOfficeSection />
+      <FansSection />
+      <GallerySection />
+      <FinalBowSection />
     </main>
   )
 }
