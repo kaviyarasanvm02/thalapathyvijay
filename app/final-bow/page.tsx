@@ -76,7 +76,7 @@ export default function FinalBowPage() {
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        className="space-y-8 mt-48"
+                        className="space-y-8 mt-80"
                     >
                         <h1 className="text-5xl md:text-7xl font-black uppercase text-transparent bg-clip-text bg-gradient-to-r from-cinema-gold to-yellow-600">
                             Thalapathy Never Ends.
