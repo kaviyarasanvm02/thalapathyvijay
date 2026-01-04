@@ -16,9 +16,7 @@ export default function Home() {
       <DefinitionGrid />
       <QuickNav />
 
-      <footer className="py-12 bg-black text-center text-gray-600 text-sm border-t border-white/5">
-        <p>© 2026 Vijay Tribute. Made with ❤️ for Thalapathy.</p>
-      </footer>
+
     </main>
   )
 }
